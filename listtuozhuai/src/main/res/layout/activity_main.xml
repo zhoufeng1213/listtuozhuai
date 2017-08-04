@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:orientation="vertical">
+
+    <com.btzh.fly.listtuozhuai.drag_list_view.DragListView
+        android:id="@+id/dvl_drag_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+    </com.btzh.fly.listtuozhuai.drag_list_view.DragListView>
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_msg_drag_list"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="空白"-->
+        <!--android:gravity="center"-->
+        <!--android:background="#189"-->
+        <!--/>-->
+</LinearLayout>
